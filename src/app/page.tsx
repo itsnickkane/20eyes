@@ -17,11 +17,11 @@ export default function Page() {
         <div className="flex w-full flex-row items-center justify-between gap-2 md:gap-0">
            <a
             href={ONCHAINKIT_LINK}
-            title="onchainkit"
+            title="20Eyes"
             target="_blank"
             rel="noreferrer"
           >
-            <20 👀 />
+            < 20Eyes />
           </a>
           <div className="flex items-center gap-3">
             <SignupButton />
