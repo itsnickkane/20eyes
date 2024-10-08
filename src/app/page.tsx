@@ -21,7 +21,7 @@ export default function Page() {
             target="_blank"
             rel="noreferrer"
           >
-            < 20Eyes />
+          20👀
           </a>
           <div className="flex items-center gap-3">
             <SignupButton />
