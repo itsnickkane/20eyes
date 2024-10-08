@@ -30,8 +30,8 @@ export default function Page() {
         </div>
       </section>
       <section className="templateSection flex w-full flex-col items-center justify-center gap-4 rounded-xl bg-gray-100 px-2 py-4 md:grow">
-        <div className="flex h-[450px] w-[450px] max-w-full items-center justify-center rounded-xl bg-[#030712]"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#a2baff'/><rect x='0' y='17' width='24' height='8' fill='#86b4bb'/><rect x='0' y='17' width='24' height='1' fill='#86b4bb'/><rect x='0' y='18' width='24' height='1' fill='#86b4bb'/><rect x='12' y='12' width='1' height='5' fill='#306141'/><rect x='11' y='11' width='1' height='1' fill='#83376e'/><rect x='12' y='11' width='1' height='1' fill='#83376e'/><rect x='13' y='11' width='1' height='1' fill='#83376e'/></svg>>
-        </div>
+        <div className="flex h-[450px] w-[450px] max-w-full items-center justify-center rounded-xl bg-[#030712]">
+          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#a2baff'/><rect x='0' y='17' width='24' height='8' fill='#86b4bb'/><rect x='0' y='17' width='24' height='1' fill='#86b4bb'/><rect x='0' y='18' width='24' height='1' fill='#86b4bb'/><rect x='12' y='12' width='1' height='5' fill='#306141'/><rect x='11' y='11' width='1' height='1' fill='#83376e'/><rect x='12' y='11' width='1' height='1' fill='#83376e'/><rect x='13' y='11' width='1' height='1' fill='#83376e'/></svg>
         </div>
         {address ? (
           <TransactionWrapper address={address} />
