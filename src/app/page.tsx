@@ -7,6 +7,7 @@ import OnchainkitSvg from 'src/svg/OnchainkitSvg';
 import { useAccount } from 'wagmi';
 import LoginButton from '../components/LoginButton';
 import SignupButton from '../components/SignupButton';
+import SwapComponents from 'src/components/Swap';
 
 export default function Page() {
   const { address } = useAccount();
@@ -24,11 +25,11 @@ export default function Page() {
             <OnchainkitSvg />
           </a>
           <div className="flex items-center gap-3">
-            <SignupButton />
+           <SignupButton />
             {!address && <LoginButton />}
           </div>
         </div>
-      </section>
+      </section> 
       <section className="templateSection flex w-full flex-col items-center justify-center gap-4 rounded-xl bg-gray-100 px-2 py-4 md:grow">
         <div className="flex h-[450px] w-[450px] max-w-full items-center justify-center rounded-xl bg-[#030712]">
           <div className="rounded-xl bg-[#F3F4F6] px-4 py-[11px]">
@@ -36,7 +37,7 @@ export default function Page() {
               npm install @coinbase/onchainkit
             </p>
           </div>
-        </div>
+        </div> 
         {address ? (
           <TransactionWrapper address={address} />
         ) : (
@@ -45,6 +46,8 @@ export default function Page() {
             text="Sign in to transact"
           />
         )}
+        <div className="flex h-[450px] w-[450px] max-w-full items-center justify-center rounded-xl bg-[#030712]"> <SwapComponents />
+        </div>  
       </section>
       <Footer />
     </div>
