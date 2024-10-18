@@ -135,10 +135,10 @@
   resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-x64/-/cli-win32-x64-1.9.1.tgz#f754bb8a94f2dab6311eff39dc30c4a6aa0f5628"
   integrity sha512-liSRWjWzFhyG7s1jg/Bbv9FL+ha/CEd5tFO3+dFIJNplL4TnvAivtyfRVi/tu/pNjISbV1k9JwdBewtAKAgA0w==
 
-"@coinbase/onchainkit@^0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@coinbase/onchainkit/-/onchainkit-0.32.0.tgz#7cfb90d9bb4ecc46fab2ade83d63426845e0d4bd"
-  integrity sha512-vLOrNDmg7V5vVddiqBDV4OkIMGz2aQoFebSYAbL4CI6kTs/NtdWTYop8AAJyQ615h7VP3pNSQH+qOZX0lAKQNA==
+"@coinbase/onchainkit@^0.34.0":
+  version "0.34.1"
+  resolved "https://registry.yarnpkg.com/@coinbase/onchainkit/-/onchainkit-0.34.1.tgz#d31afa5f5df5260eb1d36635290a5ea9eabba008"
+  integrity sha512-NNmErfmatnwqxiYPNt8KVKdzTxabbAJiwzeL1rY1h6CLVegnS9D/8hlJjtKC6JgeaKd77BVDVKSyZy60ZK3zgA==
   dependencies:
     "@rainbow-me/rainbowkit" "^2.1.3"
     "@tanstack/react-query" "^5"

@@ -18,7 +18,16 @@ function OnchainProviders({ children }: Props) {
   return (
     <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
-        <OnchainKitProvider apiKey={NEXT_PUBLIC_CDP_API_KEY} chain={base}>
+          <OnchainKitProvider
+            apiKey={process.env.NEXT_PUBLIC_ONCHAINKIT_API_KEY}
+            chain={base}
+            config={{ 
+              appearance: { 
+                mode: 'auto', // 'auto' | 'light' | 'dark'
+                theme: 'hacker', // 'default' | 'base' | 'cyberpunk' | 'hacker'
+              }, 
+            }}
+          >
           <RainbowKitProvider modalSize="compact">
             {children}
           </RainbowKitProvider>
