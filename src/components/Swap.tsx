@@ -28,7 +28,7 @@ export default function SwapComponents() {
     decimals: 9,
     name: "Fungi",
     symbol: "FUNGI",
-    image: "",
+    image: "./fungi-logo.png",
   };
 
   // add other tokens here to display them as options in the swap
